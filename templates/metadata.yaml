@@ -1,8 +1,0 @@
-#cloud-config
-local-hostname: ${name}
-instance-id: ubuntu-${name}
-
-growpart:
-  mode: auto
-  devices: ['/dev/sda2']
-  ignore_growroot_disabled: true
