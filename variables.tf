@@ -53,7 +53,6 @@ variable "disksize" {
 
 variable "ssh_username" {
   type      = string
-  sensitive = true
 }
 
 variable "public_key" {
