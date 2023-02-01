@@ -2,11 +2,11 @@
 # VMware vCenter connection #
 #===========================#
 
-variable "vsphere_user" {
-  type        = string
-  description = "VMware vSphere user name"
-  sensitive   = true
-}
+#variable "vsphere_user" {
+#  type        = string
+#  description = "VMware vSphere user name"
+#  sensitive   = true
+#}
 
 variable "vsphere_password" {
   type        = string
