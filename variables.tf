@@ -2,23 +2,23 @@
 # VMware vCenter connection #
 #===========================#
 
-#variable "vsphere_user" {
-#  type        = string
-#  description = "VMware vSphere user name"
-#  sensitive   = true
-#}
+variable "vsphere_user" {
+  type        = string
+  description = "VMware vSphere user name"
+  sensitive   = true
+}
 
-#variable "vsphere_password" {
-#  type        = string
-#  description = "VMware vSphere password"
-#  sensitive   = true
-#}
+variable "vsphere_password" {
+  type        = string
+  description = "VMware vSphere password"
+  sensitive   = true
+}
 
-#variable "vsphere_vcenter" {
-#  type        = string
-#  description = "VMWare vCenter server FQDN / IP"
-#  sensitive   = true
-#}
+variable "vsphere_vcenter" {
+  type        = string
+  description = "VMWare vCenter server FQDN / IP"
+  sensitive   = true
+}
 
 variable "vsphere-unverified-ssl" {
   type        = string
@@ -66,12 +66,12 @@ variable "public_key" {
 #       Fortinet Variables       #
 #================================#
 
-#variable "fortigate_ip" {
-#  type        = string
-#  sensitive   = true
-#}
+variable "fortigate_ip" {
+  type        = string
+  sensitive   = true
+}
 
-#variable "fortigate_api_token" {
-#  type        = string
-#  sensitive   = true
-#}
+variable "fortigate_api_token" {
+  type        = string
+  sensitive   = true
+}
