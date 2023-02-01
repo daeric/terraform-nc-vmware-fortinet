@@ -1,6 +1,6 @@
 #cloud-config
-local-hostname: ${name}
-instance-id: ubuntu-${name}
+local-hostname: ${hostname}
+instance-id: ubuntu-${hostname}
 
 growpart:
   mode: auto
